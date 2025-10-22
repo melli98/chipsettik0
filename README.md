@@ -1,0 +1,2 @@
+# Xepbillgates.py
+білл гейтня
