@@ -26,6 +26,6 @@ colors = ["black", "red", "blue", "green", "yellow"]
 for c in colors:
     tk.Button(root, bg=c, width=10, command=lambda col=c: change_color(col)).pack(side=tk.LEFT)
 
-tk.Button(root, text="Очистити", width=10, command=clear_canvas).pack(side=tk.LEFT)
+tk.Button(root, text="clear-", width=10, command=clear_canvas).pack(side=tk.LEFT)
 
 root.mainloop()
