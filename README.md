@@ -10,7 +10,7 @@ root.geometry("300x400")
 
 button = tk.Button(root, text="", command=on_button_click)
 
-button.pack(pady=50)
+button.pack(pady=60)
 
 def on_button_click():
     messagebox.showinfo("", "")
