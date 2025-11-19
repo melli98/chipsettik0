@@ -1,0 +1,32 @@
+import tkinter as tk
+import random 
+
+possible_responses = [
+    "",
+    "",
+    "",
+    ""
+]
+
+def draw_text_on_canvas():
+    user_input = entry_field.get()
+    
+    random_response = random.choice(possible_responses)
+    
+    canvas.delete("all")
+    
+    canvas.create_text(200, 200, text=random_response, font=("Arial", 16, "bold"), fill="blue")
+
+root = tk.Tk()
+root.title("")
+
+canvas = tk.Canvas(root, width=400, height=400, bg="white")
+canvas.pack()
+
+entry_field = tk.Entry(root, width=50)
+entry_field.pack()
+
+button = tk.Button(root, text="", command=draw_text_on_canvas)
+button.pack()
+
+root.mainloop()
