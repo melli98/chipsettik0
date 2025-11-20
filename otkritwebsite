@@ -1,0 +1,14 @@
+#веб сайты типо открывает Lol
+
+import webbrowser
+import time
+
+sites = [
+    "",#какой то хтпс сайт надо вставить
+    "",#какой то хтпс сайт надо вставить
+    "" #какой то хтпс сайт надо вставить
+]
+
+for site in sites:
+    webbrowser.open(site)
+    time.sleep(3)
