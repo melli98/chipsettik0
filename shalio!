@@ -1,0 +1,5 @@
+user_profile = {
+    "username": "User123",
+    "email": "user@example.com",
+    "is_active": True
+}
